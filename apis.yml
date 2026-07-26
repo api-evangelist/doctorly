@@ -1,19 +1,48 @@
 aid: doctorly
 name: Doctorly
-description: Doctorly is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Doctorly (doctorly GmbH, Berlin) builds a modern cloud-based practice
+  management system (Praxisverwaltungssystem / PVS) for medical practices in
+  Germany, positioned as a replacement for legacy systems such as Medistar,
+  Turbomed and ALBIS. The platform covers KV quarterly billing, e-prescription
+  (eRezept), electronic sick leave (eAU), real-time collaborative patient
+  records, GDT device integration and cross-platform access on Windows, macOS,
+  Linux and Android, and it is KBV-, gematik- and GDPR-compliant. Doctorly is a
+  Seedcamp portfolio company. As of this profile the company exposes no public
+  developer portal, API documentation, OpenAPI/FHIR specification, SDKs or
+  GitHub organization; this entry is maintained as a company/provider record in
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/doctorly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6166cdb1ddf5d92cb385f8e7/644667969b7bb127d37e1854_Open_Graph_Image_compressed.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health IT
+- Practice Management
+- Medical Software
+- SaaS
+- Germany
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/doctorly-domain-security.yml
 - type: Website
-  url: http://doctorly.de
+  url: https://doctorly.de
+- type: PrivacyPolicy
+  url: https://doctorly.de/datenschutzerklarung
+- type: Support
+  url: https://doctorly.de/kontakt
+- type: About
+  url: https://doctorly.de/ueber-uns
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
